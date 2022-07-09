@@ -106,10 +106,8 @@ a {
 .profile-card__img img {
   display: block;
   width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 50%;
 }
 .profile-card__cnt {
   margin-top: -35px;
