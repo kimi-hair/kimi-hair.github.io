@@ -127,6 +127,14 @@ a {
   animation: fadeUpIn 3s;
   -webkit-animation: fadeUpIn 3s;
 }
+.profile-card__subname {
+  font-size: 20px;
+  font-weight: 550;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  animation: txtfadeUpIn 3s;
+  -webkit-animation: txtfadeUpIn 3s;
+}
 .profile-card__txt {
   font-size: 18px;
   font-weight: 550;
