@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="髮型設計師｜剪髮｜燙髮｜染髮">
+    <meta name="description" content="髮型設計師｜剪髮｜燙髮｜染髮｜微整燙髮高手">
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -14,7 +14,7 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- CSS only -->
-    <link rel="stylesheet" media="all" href="style.css" type="text/css" />
+    <link rel="stylesheet" media="all" href="css/style.css" type="text/css" />
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -32,7 +32,7 @@
 
     <!-- og tag -->
     <meta property="og:title" content=" ✄ Kimi｜蘆洲髮型設計師 ✄">
-    <meta property="og:description" content="髮型設計師｜剪髮｜燙髮｜染髮">
+    <meta property="og:description" content="髮型設計師｜剪髮｜燙髮｜染髮｜微整燙髮高手">
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://kimi-hair.github.io/">
     <meta property="og:image" content="https://kimi-hair.github.io/images/avatar/profile.jpg">
@@ -46,6 +46,10 @@
 
 <body>
     <div class="wrapper">
+        <div class="profile-card__share">
+            <img src="images/share-gradient.gif" alt="分享">
+          </div>
+
         <div class="profile-card js-profile-card">
             <div class="profile-card__img">
                 <img src="/images/avatar/profile.jpg" alt="profile card" />
@@ -53,7 +57,7 @@
 
             <div class="profile-card__cnt js-profile-cnt">
                 <div class="profile-card__name">Kimi Hair 髮型設計</div>
-                <div class="profile-card__subname">2號店長​</div>
+                <div class="profile-card__subname">店長​</div>
                 <div class="profile-card__txt">✄ 設計師｜剪髮｜燙髮｜染髮​</div>
                 <div class="profile-card__content">
                     <div class="content-text"><a target="_blank" href="https://www.facebook.com/qvy3598d"
@@ -93,15 +97,13 @@
                 </div>
             </div>
         </div>
+
+        <section class="footer">
+            <p>Copyright © <span id="year"></span><a href="https://sihhan.github.io" target="_blank"> sihhan</a> All rights reserved. </p>
+        </section>
     </div>
 
-    <section id="footer">
-        <p>©<span id="year"></span> by <a href="https://sihhan.github.io" target="_blank">sihhan</a></p>
-    </section>
-
-    <script type="text/javascript">
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-    </script>
+    <script type="text/javascript" src="js/index.min.js"></script>
 </body>
 
 </html>

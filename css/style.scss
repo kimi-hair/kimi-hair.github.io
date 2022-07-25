@@ -471,20 +471,65 @@ a {
         border-radius: 12px;
         transition: all .3s;
     }
+
+    &__share {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.7);
+        background-color: rgba(255, 255, 255, 0.7);
+        top: 50px;
+        right: 50px;
+        cursor: pointer;
+
+        @media screen and (max-width: 575.99px) {
+            top: 50px;
+            right: 30px;
+        }
+
+        @media screen and (min-width: 576px) and (max-width: 767.99px) {
+            top: 50px;
+            right: 50px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 991.99px) {
+            top: 50px;
+            right: 65px;
+        }
+
+        @media screen and (min-width: 992px) and (max-width: 1199.99px) {
+            top: 50px;
+            right: 60px;
+        }
+
+        img {
+            position: absolute;
+            font-size: 20px;
+            right: 5px;
+            top: 5px;
+        }
+    }
 }
 
-#footer {
-    padding: .5rem 0;
-    background-color: #232323;
+.footer {
     text-align: center;
     color: #fff;
+    position: absolute;
+    max-width: 700px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    margin: auto;
 }
 
-#footer p {
+.footer p {
     font-size: .85rem;
+    margin: 0 auto;
+    text-shadow: #142029 0px 0px 10px;
 }
 
-#footer p a {
+.footer p a {
     color: #fff;
     text-decoration: underline;
     -webkit-transition: all .3s;
@@ -492,7 +537,7 @@ a {
     transition: all .3s;
 }
 
-#footer p a:hover {
+.footer p a:hover {
     color: #00ff6c;
 }
 
