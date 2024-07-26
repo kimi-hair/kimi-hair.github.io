@@ -118,7 +118,7 @@ a {
   transition: all 0.3s;
 }
 .profile-card__name {
-  font-size: 2rem;
+  font-size: 28px;
   color: #cda556;
   margin-bottom: 15px;
   font-weight: bold;
